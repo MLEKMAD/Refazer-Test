@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Test_project</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Refazer.Experiments\Refazer.Experiments.csproj" />
+    <ProjectReference Include="..\Refazer.Web\Refazer.Web.csproj" />
+    <ProjectReference Include="..\Tutor\Refazer.csproj" />
+  </ItemGroup>
+
+</Project>

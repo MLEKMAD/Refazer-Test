@@ -38,7 +38,7 @@ namespace Refazer.Core
         /// </summary>  
         public Result<Grammar> Grammar { get; }
 
-        public Refazer4Python(string pathToGrammar = @"..\..\..\Tutor\synthesis\", string pathToDslLib = @"..\..\..\Tutor\bin\debug")
+        public Refazer4Python(string pathToGrammar = @"C:\Users\HamidLekmad\source\repos\refazer\Tutor\synthesis\", string pathToDslLib = @"C:\Users\HamidLekmad\source\repos\refazer\Tutor\bin\Debug")
         {
             _pathToGrammar = pathToGrammar;
             _pathToDslLib = pathToDslLib;
